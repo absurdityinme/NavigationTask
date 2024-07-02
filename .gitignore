@@ -26,7 +26,6 @@ build/
 .signing/
 
 /.idea/
-*.iml
 *.ipr
 *.iws
 classes/
