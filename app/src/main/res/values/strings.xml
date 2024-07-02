@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ste(a)m</string>
+    <string name="profile_screen">Profile</string>
+    <string name="community_screen">Community</string>
+    <string name="settings_screen">Settings</string>
+    <string name="wishlist_screen">Wishlist</string>
+    <string name="main_screen">Shop</string>
+    <string name="game_page_screen">Game</string>
+    <string name="input_title_message">Enter the title of the game you would like to buy</string>
+    <string name="buy">Buy</string>
+</resources>
