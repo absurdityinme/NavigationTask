@@ -17,7 +17,11 @@
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_mainFragment_to_gamePageFragment"
-            app:destination="@id/gamePageFragment" />
+            app:destination="@id/gamePageFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
         <action
             android:id="@+id/action_mainFragment_to_profileFragment2"
             app:destination="@id/profileFragment" />
@@ -34,7 +38,11 @@
         android:id="@+id/wishlistFragment"
         android:name="com.example.navi.WishlistFragment"
         android:label="fragment_wishlist"
-        tools:layout="@layout/fragment_wishlist" />
+        tools:layout="@layout/fragment_wishlist" >
+        <action
+            android:id="@+id/action_wishlistFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.navi.ProfileFragment"
@@ -52,4 +60,12 @@
         android:name="com.example.navi.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.navi.GameFragment"
+        android:label="GameFragment" >
+        <action
+            android:id="@+id/action_gameFragment_to_wishlistFragment"
+            app:destination="@id/wishlistFragment" />
+    </fragment>
 </navigation>

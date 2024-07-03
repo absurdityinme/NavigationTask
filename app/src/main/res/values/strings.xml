@@ -8,4 +8,5 @@
     <string name="game_page_screen">Game</string>
     <string name="input_title_message">Enter the title of the game you would like to buy</string>
     <string name="buy">Buy</string>
+    <string name="back">BACK</string>
 </resources>
